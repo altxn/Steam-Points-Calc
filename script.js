@@ -9,12 +9,20 @@ function calculate() {
             pointsToCurrency = 100;
             break;
         case "EUR":
-            // 118 points for every 1 EUR you spend
+            // 108 points for every 1 EUR you spend
             pointsToCurrency = 118;
             break;
         case "NOK":
             // 100 points for every 10 NOK you spend
             pointsToCurrency = 100 / 10;
+            break;
+        case "TL":
+            // 100 points for every 10 NOK you spend
+            pointsToCurrency = 5;
+            break;
+        case "ARS":
+            // 100 points for every 10 NOK you spend
+            pointsToCurrency = 53 / 100;
             break;
         default:
             alert("Select currency from the dropdown list.");
