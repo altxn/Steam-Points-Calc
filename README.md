@@ -1,3 +1,3 @@
 # Steam Points Calculator
 
-Calculate how many Steam Points you earn by spending X amount of money:
+Calculates Steam Points earned based on currencies (USD, EUR, NOK).
