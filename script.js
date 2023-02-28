@@ -5,15 +5,15 @@ function calculate() {
     let pointsToCurrency;
     switch (currency) {
         case "USD":
-            // 100 points for every 1 dollar you spend
+            // 100 points for every 1 USD you spend
             pointsToCurrency = 100;
             break;
         case "EUR":
-            // 118 points for every 1 eur you spend
+            // 118 points for every 1 EUR you spend
             pointsToCurrency = 118;
             break;
         case "NOK":
-            // 100 points for every 10,00 kr you spend
+            // 100 points for every 10 NOK you spend
             pointsToCurrency = 100 / 10;
             break;
         default:
