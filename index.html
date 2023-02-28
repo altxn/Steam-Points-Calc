@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="jquery-3.6.3.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>SP Calc</title>
+</head>
+
+<body>
+    <div class="container-sm">
+        <h1 class="display-3">Steam Points Calculator</h1>
+        <p>Calculate how many Steam Points you earn by spending X amount of money:</p>
+        <p id="amountinfo"></p>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="form-floating">
+                    <input id="amount" type="text" class="form-control" id="floatingInputGrid" value="20">
+                    <label for="floatingInputGrid">Amount</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <select id="currency" class="form-select" id="floatingSelectGrid" aria-label="currencyLabel">
+                        <option selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="NOK">NOK</option>
+                    </select>
+                    <label for="floatingSelectGrid">Currency</label>
+                </div>
+            </div>
+        </div>
+
+        <button id="calc" onclick="calculate()" type="button" class="btn btn-outline-dark">Calculate</button>
+    </div>
+    </div>
+</body>
+
+</html>
