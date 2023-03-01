@@ -17,11 +17,11 @@ function calculate() {
             pointsToCurrency = 100 / 10;
             break;
         case "TL":
-            // 100 points for every 10 NOK you spend
+            // 5 points for every 1 TL you spend
             pointsToCurrency = 5;
             break;
         case "ARS":
-            // 100 points for every 10 NOK you spend
+            // 53 points for every 100 ARS you spend
             pointsToCurrency = 53 / 100;
             break;
         default:
