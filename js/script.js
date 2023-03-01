@@ -31,7 +31,7 @@ function calculate() {
     if (isNaN(moneyToConvert)) {
         alert("Enter a valid number.");
     } else {
-        const points = pointsToCurrency * moneyToConvert;
+        const points = Math.round(pointsToCurrency * moneyToConvert);
         $("#amountinfo").text("You get " + points + " Steam Points");
     }
 }
