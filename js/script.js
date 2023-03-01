@@ -10,7 +10,7 @@ function calculate() {
             break;
         case "EUR":
             // 108 points for every 1 EUR you spend
-            pointsToCurrency = 118;
+            pointsToCurrency = 108;
             break;
         case "NOK":
             // 100 points for every 10 NOK you spend
@@ -30,7 +30,7 @@ function calculate() {
     }
     if (isNaN(moneyToConvert)) {
         alert("Enter a valid number.");
-    } else if (moneyToConvert >= 0) {
+    } else {
         const points = pointsToCurrency * moneyToConvert;
         $("#amountinfo").text("You get " + points + " Steam Points");
     }
